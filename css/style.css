@@ -251,3 +251,107 @@ body {
   height: 400px;
   width: 300px;
 }
+.listofmovies1 h1{
+  margin-left: 500px;
+}
+.listofmovies1 img{
+  float: left;
+  margin-right: 70px;
+  border: 1px dotted black;
+}
+.listofmovies1{
+ margin-right: 130px;
+ margin-bottom: 300px;
+ text-align: center;
+}
+.listofmovies2 h1{
+  margin-left: 500px;
+}
+.listofmovies2 img{
+  float: left;
+  margin-right: 70px;
+  border: 1px dotted black;
+}
+.listofmovies2{
+ margin-right: 130px;
+ margin-bottom: 300px;
+ text-align: center;
+ border-top: 2px dotted blue;
+}
+.listofmovies3 img{
+  float: left;
+  margin-right: 70px;
+  border: 1px dotted black;
+}
+.listofmovies3{
+ margin-right: 130px;
+ margin-bottom: 300px;
+ text-align: center;
+}
+
+.listoftvshows1{
+ margin-right: 130px;
+ margin-bottom: 300px;
+ text-align: center;
+}
+.listoftvshows1 h1{
+  margin-left: 500px;
+}
+.listoftvshows1 img{
+  float: left;
+  margin-right: 70px;
+  border: 1px dotted black;
+}
+.listoftvshows2 img{
+  float: left;
+  margin-right: 70px;
+  border: 1px dotted black;
+}
+.listoftvshows2{
+ margin-right: 130px;
+ margin-bottom: 300px;
+ text-align: center;
+ border-top: 2px dotted blue;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  position: relative;
+  display: none;
+}
+
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}

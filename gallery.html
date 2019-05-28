@@ -36,7 +36,41 @@
               </form>
             </div>
         </div>
+        <div style="text-align:center">
+  <h2>Gallery About Me</h2>
+  <p>And My Interest</p>
+</div>
 
+<div class="row">
+  <div class="column">
+    <img src="img/7.png" alt="Nature" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/8.png" alt="Snow" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/9.png" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img/10.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
       </div>
         <div class="footer">
           <pre><a href="contact.html"><b>Contact Me to give feedback</b></a>                                       Get Social With Me <a target="_blank" href="https://www.facebook.com/people/Namhang-Subba/100009323236630" class="fa fa-facebook"></a> <a target="_blank" href="https://www.instagram.com/nikhil_neyleigh/" class="fa fa-instagram"></a>                                      Copyright © 2019 <strong><a target="_blank" href="index.html">Nikhil Subba</a></strong>.</pre>
