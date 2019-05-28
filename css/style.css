@@ -367,3 +367,12 @@ body {
   margin-left: 50px;
   margin-right: 50px;
 }
+.education h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.education p{
+  margin-left: 150px;
+  margin-right: 150px;
+}
