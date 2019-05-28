@@ -376,3 +376,12 @@ body {
   margin-left: 150px;
   margin-right: 150px;
 }
+.experience h1{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.experience p{
+  margin-left: 90px;
+  margin-right: 90px;
+}
