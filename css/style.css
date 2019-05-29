@@ -272,6 +272,9 @@ body {
   margin-right: 70px;
   border: 1px dotted black;
 }
+.listofmovies3 h1{
+  margin-left: 500px;
+}
 .listofmovies2{
  margin-right: 130px;
  margin-bottom: 300px;
@@ -287,6 +290,7 @@ body {
  margin-right: 130px;
  margin-bottom: 300px;
  text-align: center;
+ border-top: 2px dotted blue;
 }
 
 .listoftvshows1{
